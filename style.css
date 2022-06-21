@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2/family=Patrick+Hand&display=swap');
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Patrick Hand', cursive;
+}
+
+section {
+  height: 100vh;
+}
+
+.menulogin {
+	font-family: 'Patrick Hand', cursive;	
+	background-image: url(assets/bg10.webp);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+  background-position-x: -2cm;
+}
+
+.menulevel {
+	font-family: 'Patrick Hand', cursive;
+	background-image: url(assets/bc1.webp);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+  
+}
+
+.menustart {
+	font-family: 'Patrick Hand', cursive;	
+	background-image: url(assets/bg6.webp);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+}
+
+.menureward {
+	font-family: 'Patrick Hand', cursive;
+	background-image: url(assets/bg11.webp);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+}
+
+.menulose {
+	font-family: 'Patrick Hand', cursive;
+	background-image: url(assets/lose.webp);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+}
+
+.masuk {
+	width: 380px;
+	margin:7% auto;
+	border-radius: 25px;  
+	background-color: rgba(0,0,0,0.1);
+	box-shadow: 0 0 17px #333;
+  
+}
+
+.header {
+	text-align: center;
+	padding-top: 75px;
+}
+
+.headerr {
+	text-align: center;
+	padding-top: 45px;
+}
+
+.header h1 {
+	color: white ;
+	font-size: 45px;
+	margin-bottom: 40px;
+}
+
+.headerr h1 {
+	color: white ;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.main {
+	text-align: center;
+}
+
+.main input, button {
+	width: 300px;
+	height: 40px;
+	border:none;
+	outline: none;
+	padding-left: 40px;
+	box-sizing: border-box;
+	font-size: 15px;
+	color: #333;
+	margin-bottom: 40px;
+}
+
+.main button {
+	padding-left: 0;
+	background-color: #83acf1;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-bottom: 70px;
+}
+
+.main button:hover {
+	box-shadow: 2px 2px 5px #555;
+	background-color: #7799d4;
+}
+.main input:hover {
+	box-shadow: 2px 2px 5px #555;
+	background-color: #ddd;
+}
+
+.main span {
+	position: relative;
+}
+
+.main i {
+	position: absolute;
+	left: 15px;
+	color: #333;
+	font-size: 16px;
+	top: 2px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+}
+
+.red {
+  background-image: url(assets/bg6.webp);
+  background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+}
+
+.blue {
+  background-color: #222;
+}
+
+.title {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+}
+
+.navwrapper {
+  width: 100%;
+  height: 80px;
+  background-color: #222;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.contentwrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.contentwrapper h1 {
+  text-align: center;
+  color: white;
+}
+
+.gamewrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.box {
+
+	border-radius: 25px;  
+	background-color: rgba(0,0,0,0.1);
+	box-shadow: 0 0 17px #333;
+  border-color: black;
+}
+
+.buttonwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logoutButton {
+  display: none;
+}
+
+.startButton {
+  padding: 20px;
+  border: none;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 2em;
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.box {
+  font-size: 5em;
+  margin: 10px;
+  padding: 15px;
+  border: 5px solid white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.nav:hover {
+  background-color: #eaeaea;
+  border-radius: 10px;
+  transition: all ease-in-out .25s;
+}
+
+.nav:hover>a {
+  color: #222;
+}
+
+.navlink {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 75px;
+  height: 75px;
+  background-color: wheat;
+  border-radius: 15px;
+}

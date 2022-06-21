@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Level 3 - Funslot.com</title>
+</head>
+
+<body>
+  <section class="menu" id="start">
+    <div class="container red">
+      <div class="gamewrapper">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+        <div class="box" id="box5"></div>
+      </div>
+      <div class="header">
+        <div class="main">
+          <button onclick="start()">START</button>
+          <a href="start.html">
+            <button onclick="rewardd()">MENU LEVEL</button>s
+        </div>
+      </div>
+    </div>
+  </section>
+  <section href="#reward" id="reward">
+    <div class="container blue">
+      <div class="contentwrapper" id="imgReward">
+        <h1>REWARD BUAT ANDA</h1>
+      </div>
+    </div>
+  </section>
+
+  <div class="top" id="top" onclick="directing()">☝</div>
+  <script>
+    function directing() {
+      location.href = "level3.html"
+    }
+  </script>
+  <script src="module/Player.js"></script>
+  <script src="init.js"></script>
+</body>
+
+</html>
